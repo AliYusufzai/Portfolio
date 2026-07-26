@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function PhotoCard() {
   return (
     <div className="relative w-full max-w-full">
-      <div className="bg-white rounded-3xl relative z-0 pt-8 lg:px-8">
+      <div className="bg-white rounded-3xl relative z-0 pt-8 lg:px-8 overflow-hidden">
         <svg
           className="absolute -top-12 -left-2 w-40 h-40 z-10"
           viewBox="0 0 160 160"
@@ -30,11 +30,11 @@ export default function PhotoCard() {
             priority
           />
         </div>
-        <h2 className="text-black text-center mt-4 font-bold text-3xl ">
+        <h2 className="text-black text-center mt-4 font-bold text-2xl md:text-3xl ">
           Ali Raza Yusufzai
         </h2>
 
-        <p className="text-[#837A7A] text-center font-medium text-lg leading-tight p-3">
+        <p className="text-[#837A7A] text-center font-medium text-base md:text-lg leading-tight p-3">
           A Software Engineer who has developed countless innovative solutions
         </p>
       </div>

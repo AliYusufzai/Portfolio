@@ -10,7 +10,7 @@ export const projects: Project[] = [
   {
     name: "GUPI",
     tagline: "Social Media & Short Videos",
-    image: "/gupi-new.webp",
+    image: "/gupi.png",
     accent: "border-blue-500",
     url: "https://play.google.com/store/apps/details?id=com.gupi.app&hl=en",
   },
@@ -32,7 +32,14 @@ export const projects: Project[] = [
     name: "MrYellow",
     tagline: "Food Delivery Application",
     image: "/yellow.webp",
-    accent: "border-white-400",
+    accent: "border-yellow-200",
     url: "https://play.google.com/store/apps/details?id=com.mryellow.customer&hl=en",
+  },
+  {
+    name: "Find My Doctor",
+    tagline: "Healthcare Startup",
+    image: "/fmd.webp",
+    accent: "border-white-400",
+    url: "https://findmydoctor.pk/",
   },
 ];
