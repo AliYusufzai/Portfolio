@@ -12,7 +12,8 @@ export default function InfoSection() {
         </h1>
       </div>
       <p className="text-[#837A7A] text-lg lg:text-lg text-center lg:text-left ">
-        I build scalable backend systems with Node.js, NestJS, and AWS — and I'm
+        I build scalable backend systems with Node.js, NestJS, Python FastAPI
+        using cloud solutions such as AWS, DigitalOcean & Cloudflare — and I'm
         expanding across the stack with React and Next.js. Focused on clean
         architecture, real-world performance, and shipping things that actually
         work in production.

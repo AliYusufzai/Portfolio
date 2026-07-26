@@ -11,14 +11,14 @@ export default function ProjectSection() {
         </span>
       </h2>
 
-      <div className="flex flex-col gap-4 lg:gap-8">
+      <div className="flex flex-col gap-4 lg:gap-8 ">
         {projects.map((project) => (
           <a
             key={project.name}
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-5 border-b border-[#2a2828] pb-8 last:border-none"
+            className="flex items-center gap-5 border-b border-[#2a2828] pb-8 last:border-none hover:bg-[#2a2828] hover:opacity-80 rounded-2xl hover:translate-x-1 transition-all duration-700"
           >
             <div
               className={`w-20 lg:w-28 h-20 lg:h-28 shrink-0 rounded-2xl overflow-hidden border-2 ${project.accent}`}
